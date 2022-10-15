@@ -1,6 +1,6 @@
 header {
 
-    background-color: azure;
+    background-color: gray;
     height: 90px;
     padding: 10px;
 
@@ -31,12 +31,12 @@ ul {
     justify-content: space-around;
     column-gap: 20px;
     align-items: flex-start;
-    height: 10vh;
+
 
 }
 
 #fotos {
-
+    border: ;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
