@@ -23,16 +23,20 @@ img {
 }
 
 ul {
-    color: black;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     column-gap: 20px;
     align-items: flex-start;
+    height: 10vh;
 
 }
 
+
 .main {
+
+    height: 76vh;
 
     border: 2px solid black;
 }
@@ -49,6 +53,18 @@ ul {
 
 }
 
+div img {
+
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    height: 14vh;
+    margin: 5px;
+    ;
+}
+
 .logoBranco {
 
     display: flex;
@@ -56,17 +72,33 @@ ul {
     justify-content: center;
     align-items: center;
     height: 40vh;
-    padding: 10px;
+    padding: 8px;
 
 }
 
 
 footer {
-    display: flex;
+
     background-color: black;
+    height: 40px;
     padding: 20px;
-    height: 90px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 29vh;
+    padding: 20px;
+    margin-top: 58px;
+}
+
+h2 {
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+
 
 }
